@@ -1,0 +1,7 @@
+name: NyTech
+type: module
+description: Learning to be a real boy!
+package: NyTech
+core_version_requirement: ^9
+dependencies:
+  - drupal:node

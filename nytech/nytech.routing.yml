@@ -1,0 +1,18 @@
+nytech_hello_name.content:
+  path: '/hello/{first}/{last}'
+  defaults:
+    _controller: '\Drupal\nytech\Controller\HelloName::index'
+    _title: 'Custom Page With Two Args'
+    first: 'Darryn'
+    last: 'Nyberg'
+  requirements:
+    _permission: 'access content'
+
+nytech_org_home.content:
+  path: '/o/{org_id}'
+  defaults:
+    _controller: '\Drupal\nytech\Controller\OrgHomeController::index'
+    _title: 'Org Homepage'
+    org_id: 0
+  requirements:
+    _permission: 'access content'

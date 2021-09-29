@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function nytech_theme($existing, $type, $theme, $path) {
+
+  $templates['node_output'] = [
+    'variables' => [
+      'one' => null,
+      'two' => null,
+    ],
+  ];
+
+  $templates['o_home'] = [
+    'variables' => [
+      'org_id' => null,
+    ],
+  ];
+
+  return $templates;
+}

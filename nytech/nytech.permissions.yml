@@ -1,0 +1,4 @@
+nytech nytech_test_permission:
+  title: 'NyTech Test Permission'
+  description: 'The description'
+  restrict access: false

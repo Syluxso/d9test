@@ -1,0 +1,3 @@
+services:
+  nytech_org_home.org_id:
+    class: Drupal\nytech\Services\OrgLoadController
